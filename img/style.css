@@ -1,0 +1,404 @@
+/* css index ko lagi */
+body{
+margin: 0;
+padding: 0;
+}
+.header{
+    font-family: 'Balthazar', serif;
+}
+.logo{
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    display: inline-block;    
+    margin: 0;
+}
+.logo img{
+    width: 120px;
+    position: relative;
+}
+.mid{
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+
+}
+.navbar li a{
+    color: wheat;
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.left{
+    margin: 20px;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    display: inline-block;
+}
+.btn{
+    margin: 0px 6px;
+    color: wheat;
+    background-color: rgb(141, 117, 117);
+    padding: 10px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 112px;
+}
+.btn:hover{
+    background-color: rgb(53, 52, 52);
+}
+.midd{
+
+}
+.box1{
+    display: inline-block;
+    background-color: #04c9db;
+    width: 40%;
+    height: 400px;
+    margin-top: 36px;
+    margin-right: 2px;
+    margin-left: 120px;
+    position: relative;
+    border-radius: 10px;
+}
+.box1 h1{
+    text-align: center;
+    margin: 30px;
+    padding: 2px;
+}
+.box1 h3{
+    text-align: center;
+    font-size: 29px;
+    margin: 30px;
+    padding: 2px;
+}
+.box1 p{
+    text-align: center;
+    font-size: 22px;
+    margin: 30px;
+    padding: 2px;
+}
+
+.box2{
+    position: absolute;
+    display: inline-block;
+    margin-left: 70px;
+    width: 410px;
+    height: 320px;
+    margin-top: 36px;
+
+}
+.box2 img{
+    width: 414px;
+    height: 332px;
+    border-radius: 10px;
+
+}
+.box3{
+    display: block;
+    margin-top: -50px;
+    margin-left: 734px;
+    width: 407px;
+    height: 300px;
+}
+
+.box3 img{
+    margin-top: 24px;
+    width: 412px;
+    height: 314px;
+    border-radius: 10px;
+}
+
+.box4{
+    display: block;
+    margin-top: -220px;
+    margin-left: 230px;
+    width: 418px;
+    height: 230px;
+}
+.box4 img{
+    border-radius: 10px;
+    width: 432px;
+    height: 258px;
+}
+.footer{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 392px;
+    background-color: #42c4cf;
+    margin-top: 48px;
+    /* color: whitesmoke; */
+
+}
+.inf-1{
+    position: absolute;
+    display: inline-block;
+    height: 386px;
+    width: 430px;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+.inf-1 h2{
+    text-align: center;
+    margin-top: 42px;
+}
+.inf-1 h3{
+    text-align: center;
+    /* font-size: 26px; */
+    margin-top: 14px;
+    padding: 16px;
+}
+.inf-2{
+    position: relative;
+    display: inline-block;
+    margin-left: 462px;
+    height: 386px;
+    width: 295px;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+.inf-2 h3{
+   margin-top: 36px;
+}
+.inf-3{
+    position: absolute;
+    margin-left: 30px;
+    display: inline-block;
+    height: 386px;
+    width: 290px;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+.h4-3{
+    margin-top: 52px;
+}
+.inf-4{
+    position: absolute;
+    margin-left:350px;
+    margin-top: 128px;
+    display: inline-block;
+    height: 386px;
+    width: 212px;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+} 
+.inf-4 h1{
+    text-align: center;
+}
+.inf-4 img{
+  height:60px;
+
+}
+.footer-1{
+    /* border: 2px solid black; */
+    height: 61px;
+    background-color: #008f9c;
+    margin-top: -30px;
+    /* color: whitesmoke; */
+
+}
+.footer-1 h4{
+    padding: 18px;
+    text-align: center;
+    font-size: 19px;
+}
+/* .aboutsec1{
+    background-color: red;
+} */
+/* css about ko lagi yada dekhi */
+.header2{
+    font-family: 'Balthazar', serif;
+}
+.aboutsec1 img{
+    display: inline-block;
+    position: relative;
+    margin-top: 49px;
+    margin-left: 9px;
+    padding: 3px;
+    width: 540px;
+    height:340px;
+    border-radius: 20px;
+}
+.p2{
+    margin-top: 28px;
+    margin-left: 32px;
+    position: absolute;
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 600px;
+}
+.p2 h1{
+    text-align: center;
+    padding: 2px;
+}
+.p2 h3{
+    font-size: 19px;
+}
+.p3 img{
+    display:inline-block;
+    /* border: 2px solid black; */
+    width: 540px;
+    height: 340px;
+    margin-left: 650px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.p3 h1
+{
+    margin-left: 218px;
+    margin-top: -363px;
+
+
+}
+.p3 h3{
+    /* border: 2px solid red; */
+    width: 550px;
+    margin-left: 30px;
+    font-size: 23px;
+}
+.p4{
+    font-size: 25px;
+    margin-top: 36px;
+    margin-left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p5 h1{
+    margin-left: 570px;
+    margin-top: 120px;
+}
+.p5 img{
+    width: 288px;
+    height: 240px;
+    margin-top: 14px;
+    padding-left: 35px;
+   border-radius: 20px;
+}
+.p5-1{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.p5-2{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.p5-3{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.p5-4{
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.p5 label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.footer2{
+    border-radius: 9px;
+    height: 90px;
+    background-color: #04c9db;
+    margin-top: 300px;
+    color: whitesmoke;
+
+}
+.footer2 h3{
+    padding: 30px;
+    text-align: center;
+}
+ /* css services ke liye */
+.header3{
+    font-family: 'Balthazar', serif;
+}
+.ser-1 img{
+    margin-top: 90px;
+     height: 400px;
+     width: 1340px;
+     border: 2px solid black;
+     display: block;
+     background-color: black;
+}
+.ser-2{
+ border: 2px solid black;
+ margin-top: 2px;
+ position:absolute;
+ display: inline-block;
+ width: 900px;
+ margin-top: 30px;
+ padding-left: 25px;
+}
+.ser-2 h1{
+    font-size: 46px;
+
+}
+.ser-2 h2{
+    font-size: 22px;
+}
+.ser2-1{
+background-color: whitesmoke;
+border: 2px solid black;
+height: 400px;
+width: 380px;
+display: inline-block;
+margin-top: 30px;
+margin-left: 948px;
+
+}
+.ser-2 ul{
+    font-size: 22px;
+}
+#int{
+    font-size: 22px;
+    padding-left: 4px;
+}
+
+
+/* appointement ko lagi css */
+.app-1 h2{
+
+    border: 2px solid black;
+    margin-left: 72px;
+    margin-bottom: 30px;
+    margin-top: 56px;
+}
+.app1-1{
+    margin-left: 72px;
+}
+.app1-1 h4{
+    margin-bottom: 4px;
+}
+/* .app1-1 select{
+    margin-bottom: 14px;
+    display: block;
+    width: 40px; */
+.calendar{
+    margin:22px 0px 18px 0px;
+    border: 2px solid black;
+    display: block;
+    width: 440px;
+    height: 220px;
+}
+.app-4 {
+    border: 2px solid black;
+    margin-left: 72px;
+    
+}
